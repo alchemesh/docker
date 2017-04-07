@@ -2,7 +2,7 @@
 #	docker run -itd \
 #	-v /etc/localtime:/etc/localtime:ro \
 #	-v /tmp/.X11-unix:/tmp/.X11-unix \
-#	-v $HOME/.Xauthority:/home/developer/.Xauthority \
+#	-v $HOME/.Xauthority:/home/firefox/.Xauthority \
 #	-e DISPLAY=$DISPLAY \
 #	--device /dev/snd \
 #	--device /dev/video0 \ 
